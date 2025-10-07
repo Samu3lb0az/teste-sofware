@@ -1,7 +1,8 @@
-CREATE DATABASE IF NOT EXISTS teste_sofware
+CREATE DATABASE IF NOT EXISTS teste_software
 CHARACTER SET utf8mb4
 COLLATE utf8mb4_unicode_ci;
-USE teste_sofware;
+
+USE teste_software;
 
 CREATE TABLE usuarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
